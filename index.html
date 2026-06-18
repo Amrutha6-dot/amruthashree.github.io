@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amrutha Shree Manickavasagam — Full-Stack Developer</title>
+<meta name="description" content="Full-stack developer specializing in Angular, Java/Spring, and reliable system delivery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <span class="logo">AS<span class="dot">.</span>M</span>
+    <nav class="topnav">
+      <a href="#about">about me</a>
+      <a href="#builds">builds</a>
+      <a href="#stack">stack</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a class="resume-btn" href="Amrutha_Resume.pdf" target="_blank" rel="noopener">
+      <span>resume.pdf</span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap" id="about">
+    <div class="hero-status">
+      <span class="pulse" aria-hidden="true"></span>
+      open to full-time &amp; contract roles · wooster, oh · h4-ead, no sponsorship required
+    </div>
+
+    <h1 class="hero-title">
+      <span class="reveal-name">Amrutha Shree<br>Manickavasagam</span>
+    </h1>
+
+    <p class="hero-sub">
+      Full-stack developer who treats software delivery like infrastructure — measured, documented, and built to hold up under real load. Two years turning financial-grade reliability requirements into shipped Angular &amp; Spring systems at BNP Paribas.
+    </p>
+
+    <div class="hero-metrics">
+      <div class="metric">
+        <span class="metric-num">40<span class="unit">%</span></span>
+        <span class="metric-label">app performance gain<br>via API &amp; client-side optimization</span>
+      </div>
+      <div class="metric">
+        <span class="metric-num">20<span class="unit">+</span></span>
+        <span class="metric-label">stable production releases<br>owned end-to-end via Jenkins CI/CD</span>
+      </div>
+      <div class="metric">
+        <span class="metric-num">600<span class="unit">+</span></span>
+        <span class="metric-label">daily active users served<br>on a high-traffic payment platform</span>
+      </div>
+      <div class="metric">
+        <span class="metric-num">170<span class="unit">+</span></span>
+        <span class="metric-label">CRUD operations maintained<br>across normalized MySQL schemas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILDS / PROJECTS -->
+  <section class="builds wrap" id="builds">
+    <div class="section-head">
+      <span class="eyebrow">builds</span>
+      <h2>Real-world projects</h2>
+      <p class="section-desc">Two systems built to mirror real production constraints. Each one ships with a live demo, a documented stack, and the same engineering habits from my BNP Paribas work: CI/CD pipelines, normalized schemas, and measured performance.</p>
+    </div>
+
+    <article class="build-card">
+      <div class="build-meta">
+        <span class="build-tag">release v1.0</span>
+        <span class="build-status status-live">live</span>
+      </div>
+      <h3>Ledger — payment &amp; expense tracking dashboard</h3>
+      <p class="build-desc">An Angular + Spring Boot + MySQL dashboard for tracking transactions across accounts, modeled directly on the payment-processing systems I built at BNP Paribas — same domain, personal scale. Includes a sortable, filterable transaction table (the same client-side sorting approach that cut page-load time 30% in production) and a spend-over-time chart backed by normalized stored procedures.</p>
+      <div class="build-stack">
+        <span>Angular 12+</span><span>Spring Boot</span><span>MySQL</span><span>REST API</span><span>Chart.js</span>
+      </div>
+      <div class="build-links">
+        <a href="#" class="build-link primary">view live demo →</a>
+        <a href="#" class="build-link">source on github</a>
+      </div>
+    </article>
+
+    <article class="build-card">
+      <div class="build-meta">
+        <span class="build-tag">release v1.0</span>
+        <span class="build-status status-live">live</span>
+      </div>
+      <h3>Pipeline — CI/CD-deployed task &amp; sprint manager</h3>
+      <p class="build-desc">A task manager that's less about the UI and more about how it ships: every commit runs through a GitHub Actions pipeline — build, test, deploy — to a live cloud host automatically. Built to demonstrate the same CI/CD discipline I used with Jenkins and Artifactory at BNP Paribas, translated into a fully cloud-native deployment chain.</p>
+      <div class="build-stack">
+        <span>Angular</span><span>Node.js</span><span>GitHub Actions</span><span>Cloud Deploy</span>
+      </div>
+      <div class="build-links">
+        <a href="#" class="build-link primary">view live demo →</a>
+        <a href="#" class="build-link">source on github</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- EXPERIENCE LOG -->
+  <section class="changelog wrap" id="experience">
+    <div class="section-head">
+      <span class="eyebrow">experience</span>
+      <h2>Experience</h2>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-when">
+        <span class="log-role">Associate Software Engineer</span>
+        <span class="log-company">BNP Paribas ISPL — Chennai, India</span>
+        <span class="log-dates">Jul 2021 — Oct 2023</span>
+      </div>
+      <ul class="log-points">
+        <li>Built scalable backend integrations for initiating and processing payment services, securely handling sensitive downstream financial data.</li>
+        <li>Cut page-load time 30% on a high-traffic financial app by implementing advanced client-side sorting — improving usability for 600+ daily users.</li>
+        <li>Designed Spring-based microservices for a core payment engine using dependency injection and service-oriented architecture, reducing calculation latency on a modular brokerage calculator.</li>
+        <li>Normalized MySQL schemas and tuned stored procedures, cutting query time 20% while supporting 170+ CRUD operations.</li>
+        <li>Owned end-to-end delivery — analysis through deployment — via Jenkins CI/CD, coordinating 20+ stable releases.</li>
+      </ul>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-when">
+        <span class="log-role">Freelance Full-Stack Developer</span>
+        <span class="log-company">Self-employed — Remote</span>
+        <span class="log-dates">Nov 2023 — Dec 2025</span>
+      </div>
+      <ul class="log-points">
+        <li>Architected and deployed scalable Angular 12+ applications backed by high-performance RESTful microservices.</li>
+        <li>Integrated third-party APIs and optimized JSON data transmission between services.</li>
+        <li>Standardized system architecture and database schemas using PL/SQL to optimize data access patterns.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="stack wrap" id="stack">
+    <div class="section-head">
+      <span class="eyebrow">stack</span>
+      <h2>Working set</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <h4>frontend</h4>
+        <div class="tag-row"><span>Angular 12+</span><span>TypeScript</span><span>JavaScript</span><span>HTML5 / CSS3</span><span>Bootstrap</span></div>
+      </div>
+      <div class="stack-group">
+        <h4>backend &amp; apis</h4>
+        <div class="tag-row"><span>Java</span><span>Spring MVC</span><span>Maven</span><span>REST API design</span><span>Linux / Shell</span></div>
+      </div>
+      <div class="stack-group">
+        <h4>data</h4>
+        <div class="tag-row"><span>MySQL</span><span>PostgreSQL</span><span>PL/SQL</span><span>Stored Procedures</span></div>
+      </div>
+      <div class="stack-group">
+        <h4>delivery</h4>
+        <div class="tag-row"><span>Git</span><span>Jenkins</span><span>Artifactory</span><span>CI/CD</span><span>Agile/Scrum</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact wrap" id="contact">
+    <div class="contact-card">
+      <div class="contact-status">
+        <span class="pulse" aria-hidden="true"></span> status: available immediately
+      </div>
+      <h2>Let's build something that ships.</h2>
+      <p>Based in Wooster, OH — open to onsite, hybrid, or remote roles. H4-EAD, no sponsorship required.</p>
+      <div class="contact-links">
+        <a href="mailto:amruthamanick@gmail.com" class="contact-link primary">amruthamanick@gmail.com</a>
+        <a href="https://www.linkedin.com/in/amrutha-shree-manickavasagam-a626a5188/" class="contact-link" target="_blank" rel="noopener">linkedin</a>
+        <a href="#" class="contact-link" target="_blank" rel="noopener">github</a>
+        <a href="tel:+13136241130" class="contact-link">+1 313 624 1130</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefooter wrap">
+  <span>built &amp; deployed by Amrutha — static site, zero dependencies beyond fonts</span>
+</footer>
+
+</body>
+</html>
